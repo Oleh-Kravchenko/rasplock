@@ -1,0 +1,3 @@
+[submodule "shared/liblog"]
+	path = shared/liblog
+	url = https://github.com/Oleh-Kravchenko/liblog.git
