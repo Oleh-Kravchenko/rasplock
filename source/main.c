@@ -55,6 +55,10 @@ int main(int argc, char **argv)
 		_INFO("%s", cfg.unlocks.s[i]);
 	}
 
+	if (getuid()) {
+		_WARNING("root permissions required");
+	}
+
 
 	unsigned state = 0;
 
